@@ -1,9 +1,49 @@
-p
+.navbar
 {
-    color: red;
+    background-color: darkblue;
+    overflow: hidden;
 }
 
-p table
+.navbar a 
 {
-    color: blue;
+    display: inline-block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover
+{
+    color:darkorange;
+}
+
+.navbar a:active
+{
+    color: blueviolet;
+}
+
+.navbar a:visited
+{
+    color:chartreuse;
+}
+
+
+footer {
+    background-color: darkblue;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p
+{
+    color: yellow;
+    font-family:Arial, Helvetica, sans-serif;
 }
