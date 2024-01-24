@@ -1,6 +1,16 @@
+body
+{
+    font-size: 14px;
+}
+
+p
+{
+    font-size: 18px;
+}
+
 .navbar
 {
-    background-color: darkblue;
+    background-color: grey;
     overflow: hidden;
 }
 
@@ -33,7 +43,7 @@
 
 
 footer {
-    background-color: darkblue;
+    background-color: grey;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -46,4 +56,19 @@ footer p
 {
     color: yellow;
     font-family:Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.VideoImage
+{
+    text-align: center;
 }
