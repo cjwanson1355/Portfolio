@@ -443,7 +443,6 @@ h6 { font-size: 16px; }
 }
 .foliox_tm_header .social:before{
 	position: absolute;
-	content: "|";
 	left: -30px;
 	top: -2px;
 }
@@ -811,7 +810,7 @@ h6 { font-size: 16px; }
 	height: auto;
 	clear: both;
 	float: left;
-	margin-bottom: 115px;
+	margin-bottom: 0px;
 }
 .foliox_tm_counter .counter_list{
 	width: 100%;
