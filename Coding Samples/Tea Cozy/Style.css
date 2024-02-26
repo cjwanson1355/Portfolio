@@ -1,0 +1,189 @@
+html
+{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+    text-align: center;
+}
+
+.top-image
+{
+    height: 50px;
+    left: 10px;
+    top: 10px;
+    position: absolute;
+
+}
+
+header
+{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    
+}
+
+ol
+{
+    position: absolute;
+    right: 10px;
+    display: flex;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+
+li
+{
+    
+    margin: 10px
+}
+
+.banner
+{
+    height: 700px;
+    background-image: url('Images/img-mission-background.webp');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.Mission
+{
+    position:relative;
+    top: 200px;
+    width: auto;
+    background-color: black;
+    height: 150px;
+
+    
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+}
+
+.Mission-Text
+{
+    position:relative;
+    top: 30px;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+}
+
+footer
+{
+    height: 200px
+}
+
+h6
+{
+    text-align: left;
+}
+
+
+
+.resized-image 
+{
+    width: 300px;
+    height: 200px;
+}
+
+.top-row
+{
+    display: inline; 
+    text-decoration: none;           
+}
+
+.bottom-row
+{
+    
+    display: inline; 
+    text-decoration: none;  
+    text-decoration-line: none;        
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;  
+    text-decoration-line: none;
+}
+
+p
+{
+    margin: 0px;
+    padding: 10px;
+    border:0px;
+}
+
+.location
+{
+    height: 500px;
+    background-image: url('Images/img-locations-background.webp');
+    background-size: cover;
+    background-position: center;
+   
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+}
+
+.location h2
+{
+    position:absolute;
+    top: 25px;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+}
+
+.black-box {
+ 
+            height: 300px;
+            width: 300px;
+            background-color: rgba(0, 0, 0, 0.3); /* Black box with 50% opacity */
+            z-index: 1;
+}
+
+.black-box h3
+{
+    z-index: 2;
+    color: white;
+    position: relative;
+}
+
+.black-box-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+}
+
+.box1
+{
+    position: absolute;
+    left: 400px;
+    top: 130px;
+    margin: 10px 10px;
+}
+
+.box2
+{
+    position: absolute;
+    left: 800px;
+    top: 130px;
+    margin: 10px 10px;
+}
+
+.box3
+{
+    position: absolute;
+    left: 1200px;
+    top: 130px;
+    margin: 10px 10px;
+}
